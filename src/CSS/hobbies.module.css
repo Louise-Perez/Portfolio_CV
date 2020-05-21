@@ -1,0 +1,36 @@
+.interet{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 20px; 
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-top: 20px;
+	position: relative;
+    width: 60px;
+}
+
+.interet img{					/* Pictos intérêts */
+    height: 50px;
+    padding: 10px;
+    width: 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.interet p{					/* Description masquée */
+    opacity: 0;
+    
+}
+
+.interet:hover p{			/* Apparition de la description */
+	opacity: 1;
+	transition: 0.8s;
+}
+
+.description{
+	bottom: -40px;
+	left: 5px;
+	position: absolute;
+}
+

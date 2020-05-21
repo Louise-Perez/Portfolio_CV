@@ -1,0 +1,45 @@
+.resumeBody {
+    width: 100%;
+    height: 100%;
+    background: url(../image/bg.png) no-repeat;
+    background-size: cover;	
+	background-position: 25% 75%;
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.resumeGrid {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    background-color: white;
+}
+
+.resume{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px; 
+    text-align: center;
+}
+
+.resumeCell {
+    background: #262626;
+    color: white;
+    padding: 2em;
+}
+
+
+.separator {
+    border-top: 3px solid #5F9EA0;
+    width: 50%; 
+    margin: auto; 
+}
+
+.introduction {
+    margin-top: 10px;
+    text-align: justify;
+}

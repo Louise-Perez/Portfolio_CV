@@ -1,0 +1,6 @@
+.projectBody {
+    background: url(../image/bg.png) no-repeat;
+    background-size: cover;	
+	background-position: 25% 75%;
+    background-attachment: fixed;
+}
