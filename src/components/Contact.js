@@ -13,8 +13,8 @@ class Contact extends Component {
             <div className={style.contactBody}>
                 <Grid className={style.contactGrid}>
                     <Cell col={6}>
-                            <h2> Louise Perez</h2>
-                            <h3>Développeuse Web Junior</h3>
+                            <h1> Louise Perez</h1>
+                            <h2>Développeuse Web</h2>
                             <p className={style.dispo} > Disponibilité Montpellier, Nimes et ses alentours</p>
                         <div className={style.contactList}>
                             <div className={style.socialLinks}>

@@ -26,7 +26,7 @@ class Landing extends Component {
                         </div>
 
                         <div className={style.bannerText}>
-                            <h1> Developpeuse Web Junior</h1>
+                            <h1> Développeuse Web</h1>
                         </div>
                     </Cell>
                     <Cell col={12} style={{marginTop: '200px'}}>

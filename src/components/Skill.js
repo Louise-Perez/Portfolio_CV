@@ -1,23 +1,22 @@
 import React, {Component} from 'react';
 import { Grid, Cell} from 'react-mdl';
 import style from '../CSS/skills.module.css';
-import Html5Logo from '../image/html5.png';
-import Css3 from '../image/css3.png';
-import Bootstrap from '../image/bootstrap.png';
-import JS from '../image/js.png';
-import ReactLogo from '../image/react.png';
-import PhpLogo from '../image/php.png';
-import MySQL from '../image/mysql.png';
-import Symfony from '../image/symfony.png';
+import Html5Logo from '../image/skills/html5.png';
+import Css3 from '../image/skills/css3.png';
+import JS from '../image/skills/js.png';
+import ReactLogo from '../image/skills/react.png';
+import PhpLogo from '../image/skills/php.png';
+import MySQL from '../image/skills/mysql.png';
 import Git from '../image/git.png';
-import Illustrator from '../image/illustrator.png';
-import Indesign from '../image/indesign.png';
-import Linux from '../image/linux.png';
-import MacOs from '../image/macOs.png';
-import Photoshop from '../image/photoshop.png';
-import PremierePro from '../image/premierePro.png';
-import Trello from '../image/trello.png';
-import Wordpress from '../image/wordpress.png';
+import NodeJs from '../image/skills/nodejs.png';
+import Illustrator from '../image/skills/illustrator.png';
+import Indesign from '../image/skills/indesign.png';
+import Linux from '../image/skills/linux.png';
+import MacOs from '../image/skills/macOs.png';
+import Photoshop from '../image/skills/photoshop.png';
+import PremierePro from '../image/skills/premierePro.png';
+import Trello from '../image/skills/trello.png';
+import Wordpress from '../image/skills/wordpress.png';
 
 class Skills extends Component {
     render () {
@@ -49,17 +48,17 @@ class Skills extends Component {
                         <ul>
                             <li> 
                                 <img src={Html5Logo} alt="HTML5" title="HTML5"/> | 
-                                <img src={Css3} alt="CSS3" title="CSS3"/>  | 
-                                <img src={Bootstrap} alt="Bootstrap" title="Bootstrap"/> 
+                                <img src={Css3} alt="CSS3" title="CSS3"/>
                             </li>
                             <li> 
+                                <img src={NodeJs} alt="Node Js" title="NodeJs"/>   |    
                                 <img src={JS} alt="JavaScript" title="JavaScript"/>  | 
-                                <img src={ReactLogo} alt="React" title="React"/>  
+                                <img src={ReactLogo} alt="React" title="React"/> 
+                                
                             </li>
                             <li> 
                                 <img src={PhpLogo} alt="Php" title="PHP"/>  | 
-                                <img src={MySQL} alt="MySQL" title="MySQL"/>  | 
-                                (<img src={Symfony} alt="Symfony" title="Symfony"/> )
+                                <img src={MySQL} alt="MySQL" title="MySQL"/>
                             </li>
                         </ul>
                     </Cell>
